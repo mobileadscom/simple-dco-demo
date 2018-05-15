@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dynamic Creative Optimization (DCO) Demo</title>
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:title" content="Dynamic Creative Optimization (DCO) Demo" />
+  <meta property="twitter:description" content="MobileAds Dynamic Creative Optimization Demo shows how the content of ads can be dynamic based on real time conditions" />
+  <meta property="twitter:image" content="https://rmarepo.richmediaads.com/dco-demo/img/preview.png" />
+  <meta property="twitter:url" content="https://rmarepo.richmediaads.com/dco-demo/index.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Dynamic Creative Optimization (DCO) Demo" />
+  <meta property="og:description" content="MobileAds Dynamic Creative Optimization Demo shows how the content of ads can be dynamic based on real time conditions" />
+  <meta property="og:image" content="https://rmarepo.richmediaads.com/dco-demo/img/preview.png" />
+  <meta property="og:url" content="https://rmarepo.richmediaads.com/dco-demo/index.html" />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="left-section" style="max-width: 320px;">
+      <h3>Toggle with the Options Below and See the Ad Change Dynamically!</h3>
+      <label for="conditions">Variations</label>
+      <select onchange="window.ad = new AdUnit(true)" id="bg">
+        <optgroup label="Background">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Sunny" selected>Sunny</option>
+          <option value="Rainy">Rainy</option>
+          <option value="Tokyo">Tokyo</option>
+          <option value="Yokohama">Yokohama</option>
+          <option value="Morning">Morning</option>
+          <option value="Afternoon">Afternoon</option>
+          <option value="Night">Evening/Night</option>
+
+        </optgroup>
+      </select>
+    </div>
+  </div>
+
+  <div id="rma-widget"></div>
+  <script src="js/main.js"></script>
+</body>
+</html>
