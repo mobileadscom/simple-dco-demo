@@ -1,6 +1,6 @@
-# MADS_Project_Mcdonalds-DCO_DEMO
+# MADS_SIMPLE-DCO_DEMO
 
-Mcdonalds Dynamic Content Demo
+Dynamic Content Demo
 
 ## Requirements
 
